@@ -1,0 +1,8 @@
+# إعدادات Render — كيخلي الرفع بضغطة وحدة
+services:
+  - type: web
+    name: one-link-gate
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
